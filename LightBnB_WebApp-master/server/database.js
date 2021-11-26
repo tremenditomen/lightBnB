@@ -69,7 +69,7 @@ const { Pool } = require('pg');
 //Pool is the preferred way to manage client connections becacuse POOL will
 //manage multiple clinet connection for us
 const pool = new Pool({
-  user: 'vagrant',
+  user: 'luiscontreras',
   password: '1234',
   host: 'localhost',
   database: 'lightbnb'
